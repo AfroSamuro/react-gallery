@@ -11,10 +11,16 @@ export default function Header(props) {
                 <img src="" alt="theme" />
             </div>
             <div>
-            <input type="text" placeholder="Name"/>
-            <select placeholder="Author" />
-            <select placeholder="Location" />
-            <select placeholder="Created" />
+                <input type="text" placeholder="Name" />
+                <select defaultValue={'Authors'}>
+                    <option disabled>Authors</option>
+                </select>
+                <select defaultValue={'Locations'}>
+                    <option disabled>Locations</option>
+                </select>
+                <select defaultValue={'Created'}>
+                    <option disabled>Created</option>
+                </select>
             </div>
         </header>
     )
