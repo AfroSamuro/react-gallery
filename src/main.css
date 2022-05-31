@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    background-color: white;
+    cursor: default;
+    width:100vw;
+    overflow-x:hidden;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.dark-theme {
+    background-color: black;
+    color: white;
+}

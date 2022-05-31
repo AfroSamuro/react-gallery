@@ -15,8 +15,9 @@
 
 .card__desc {
     position: relative;
-    top: -50px;
+    top: -38px;
     background: rgba(255, 255, 255, 0.75);
+    
 }
 
 .hidden {
@@ -24,5 +25,6 @@
 }
 
 .showDesc {
-    top: -200px;
+    top: -184px;
+    padding-bottom: 22px;
 }
