@@ -1,14 +1,12 @@
-
-
-
+import './Header.css'
 
 export default function Header(props) {
 
     return (
-        <header>
-            <div>
-                <img src="" alt="logo" />
-                <img src="" alt="theme" />
+        <header className='header'>
+            <div className='header__logoSwitch'>
+                <img className='logoSwitch__logo' src="" alt="logo" />
+                <img className='logoSwitch__switch' src="" alt="theme" />
             </div>
             <div>
                 <input type="text" placeholder="Name" />

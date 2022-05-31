@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "./components/header/Header";
 import HomePage from "./components/pages/HomePage";
 import GalleryAPI from './network/GalleryAPI'
+import Adaptive from './adaptive/Adaptive'
 
 
 export default function App() {
@@ -28,9 +29,9 @@ export default function App() {
 
 
     return (
-        <>
+        <Adaptive tagname='section'>
             <Header />
             <HomePage paintings={paintings} authors={authors} locations={locations} />
-        </>
+        </Adaptive>
     )
 }
